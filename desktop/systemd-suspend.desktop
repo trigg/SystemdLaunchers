@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Suspend
+Comment=Suspend system to RAM
+Exec=systemctl suspend
+Icon=system-shutdown
+Terminal=false
+Type=Application
+Categories=System;

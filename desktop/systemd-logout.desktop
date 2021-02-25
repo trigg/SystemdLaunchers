@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Log out
+Comment=Close the session of the currently running user
+Exec=loginctl kill-session `loginctl | grep $LOGNAME | awk -F' ' '{ print $1 }' -`
+Icon=system-log-out
+Terminal=false
+Type=Application
+Categories=System;

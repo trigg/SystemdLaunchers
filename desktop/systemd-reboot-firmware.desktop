@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Reboot to Firmware
+Comment=Close all applications and start machine in firmware interface
+Exec=systemctl reboot --firmware-setup
+Icon=system-reboot
+Terminal=false
+Type=Application
+Categories=System;

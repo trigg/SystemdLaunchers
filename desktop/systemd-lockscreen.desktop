@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lock Screen
+Comment=Lock the session of the currently running user
+Exec=loginctl lock-session `loginctl | grep $LOGNAME | awk -F' ' '{ print $1 }' -`
+Icon=system-lock-screen
+Terminal=false
+Type=Application
+Categories=System;
